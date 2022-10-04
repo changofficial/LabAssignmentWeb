@@ -1,0 +1,35 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+#par1 {
+    color: gray;
+    text-align: center;
+}
+hr{
+    color: gray; 
+    border-top: 10px;
+    border-radius: 5px;
+}
+#par2 {
+    color: green;
+    font-size: 30px;
+    text-align: left;
+}
+#Iamlove {
+    text-align: left;
+}
+#quynhaka {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#par3 {
+    color: green;
+    font-size: 30px;
+    text-align: left;
+}
+#name {
+    text-align: left;
+}
