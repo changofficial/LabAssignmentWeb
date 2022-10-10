@@ -1,0 +1,118 @@
+.styleB {
+    flex-direction: row;
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+}
+.squareA2 {
+    /* margin: auto; */
+    min-width: 100px;
+    min-height: 150px;
+    border-left: 10px dotted  #D0D0FF;
+    background-color: #eeeff2;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.squareA2:hover{
+    background-color: rgb(247, 240, 105);
+}
+.A2{
+    margin-top: 6px;
+    margin-right: 45px;
+}
+.squareB2 {
+    /* margin: auto; */
+    min-width: 100px;
+    min-height: 150px;
+    border-left: 10px dotted  #D0D0FF;
+    background-color: #eeeff2;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.squareB2:hover{
+    background-color: rgb(247, 240, 105);
+}
+.B2{
+    margin-top: 6px;
+    margin-right: 45px;
+}
+.squareC2 {
+    /* margin: auto; */
+    min-width: 100px;
+    min-height: 150px;
+    border-left: 10px dotted  #D0D0FF;
+    background-color: #eeeff2;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.squareC2:hover{
+    background-color: rgb(247, 240, 105);
+}
+.C2{
+    margin-top: 6px;
+    margin-right: 45px;
+}
+.squareD2 {
+    /* margin: auto; */
+    min-width: 100px;
+    min-height: 150px;
+    border-left: 10px dotted  #D0D0FF;
+    background-color: #eeeff2;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.squareD2:hover{
+    background-color: rgb(247, 240, 105);
+}
+.D2{
+    margin-top: 6px;
+    margin-right: 45px;
+}
+.squareE2 {
+    /* margin: auto; */
+    min-width: 100px;
+    min-height: 150px;
+    border-left: 10px dotted  #D0D0FF;
+    background-color: #eeeff2;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.squareE2:hover{
+    background-color: rgb(247, 240, 105);
+}
+.E2{
+    margin-top: 6px;
+    margin-right: 45px;
+}
+.squareF2 {
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    min-height: 150px;
+    border-left: 10px dotted  #D0D0FF;
+    background-color: #eeeff2;
+    margin-left: 700px;
+    margin-right: 200px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.squareF2:hover{
+    background-color: rgb(247, 240, 105);
+}
+.F2{
+    margin-top: 6px;
+    margin-right: 45px;
+}
+
