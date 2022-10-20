@@ -8,7 +8,6 @@ function App() {
         <section>
             <input value={name}
                 onChange = {(e) => setName(e.target.value)}>
-                
             </input>
             <p>My name is {name}</p>
         </section>
