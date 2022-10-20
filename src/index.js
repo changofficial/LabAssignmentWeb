@@ -1,8 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import "./index.css";
+
+import {Button} from "antd";
+import "./antd.css";
 
 const element = (
-    <div className='para'>Green is the prime color of the world </div>
+    <Button style={{margin:"10px 10px"}} type="primary" ></Button>
 );
 ReactDOM.render(element, document.getElementById('root'));
