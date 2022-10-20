@@ -1,19 +1,32 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom/client';
 
-import MySection from "./MySection";
-import MyButton from "./MyButton";
+
+const array = ["First", "Second", "Third"];
+
+const object = {
+  first: 1,
+  second:2,
+  third:3,
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-  <MySection>
-      <MyButton>My Button Text</MyButton>
-  </MySection>
-);
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  <section>
+    <h1>Array</h1>
+    <ul>
+      {array.map((i) => (<li key={i}>{i}</li>))}
+    </ul>
+
+    <h1>Object</h1>
+    <ul>
+      {Object.keys(object).map((i) =>(
+        <li Key={i}>
+          <strong>{i}: </strong>
+          {object[i]}
+        </li>
+      ))}
+    </ul>
+  </section>
+)
