@@ -1,6 +1,8 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import MyInput from "./MyInput";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<MyInput/>);
+const element = (
+    <div className='para'>Green is the prime color of the world </div>
+);
+ReactDOM.render(element, document.getElementById('root'));
