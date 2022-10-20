@@ -1,29 +1,20 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import MyButton from "./MyButton";
-import MyComponent from "./MyButton";
-import MyList from "./MyList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const appState = {
-  text: "My Button",
-  disable:true,
-  items: ["First", "Second", "Third"],
-};
-
-function render(props) {
+function render({second}) {
   root.render (
     <main>
-      <MyButton text={props.text} disable={props.disable} />
-      <MyList items = {props.items} />
+      <MyButton/>
+      <MyButton text={second.text} disabled={second.disabled} />
     </main>
   );
 }
-render(appState);
+render({
+  second: {
+    text:"Second Button",
+    disabled:true,
+  },
+});
 
-setTimeout(() => {
-  appState.disable = false;
-  appState.items.push("Fourth");
-
-  render(appState);
-}, 1000)
